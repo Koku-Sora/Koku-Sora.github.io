@@ -57,10 +57,15 @@ border-spacing: 0;
 body{
 	background: #222222;
 }
-.raleway[
+
+#title h1[
 font-family: 'Raleway', sans-serif;
 ]
 
-.notosans[
+#title h2[
+font-family: 'Noto Sans', sans-serif;
+]
+
+#title h3[
 font-family: 'Noto Sans', sans-serif;
 ]

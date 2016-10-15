@@ -24,10 +24,31 @@ body{
     background: #333333 url(images/stripe.png) repeat-x;
     color: #666666;
 	}
+
+.prot1 {
+color:#ffcc99;
+font-size: 20px;}
+
+.prot2 {
+color:#ffe;
+font-size: 20px;}
+
 #wrapper{
-width: 80%;
+width: 85%;
 margin: 0 auto;
 }
+
+#return{
+posiotion: static;
+top:150px;
+}
+#return h2{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: left; 
+	color:#4689FF;
+	font-size:18px;
+}
+
 #title1{
 	position: static;
 	top: 185px;
@@ -35,7 +56,7 @@ margin: 0 auto;
 
 #title1 h1{
 	font-family: 'Ropa Sans', sans-serif;
-	text-align: center; 
+	text-align: left; 
 	font-size: 80px;
 	color:#BBD0F0
 }
@@ -47,28 +68,42 @@ margin: 0 auto;
 
 #title2 h2{
 	font-family: 'Noto Sans', sans-serif;
-	text-align: center;
+	text-align: left;
 	color:#DDFFFF;
 	font-size: 30px;
 }
 
 #title2 h3{
 	font-family: 'Noto Sans', sans-serif;
-	text-align: center; 
-	font-size:15px;
+	text-align: left; 
+	color:#4689FF;
+	font-size:18px;
 }
 
-#navi{
+#profile{
 	position: static;
 	top: 250px;
 	wide:50px;
 }
 
-#navi h2{
+#profile h3{
 	font-family: 'Noto Sans', sans-serif;
-	text-align: center;
-	color:#F60;
-	font-size: 30px;
+	text-align: left;
+	color:#BBBBBB;
+	font-size: 15px;
+}
+
+#bio{
+	position: static;
+	top: 450px;
+	wide:80%;
+}
+
+#bio h3{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: left;
+	color:#BBBBBB;
+	font-size: 15px;
 }
 
 a{
@@ -84,3 +119,38 @@ a:hover{
 		font-family: 'Noto Sans', sans-serif;
 	font-size: 12px;
 }
+
+.pro_icon_you{
+    width: 128px;
+	float: left;
+    margin-right: 30px;	
+    margin-bottom: 30px;
+    }
+
+.pro_icon_SoC{
+    width: 100px;
+	float: left;
+    margin-right: 30px;	
+    margin-bottom: 30px;
+    }
+
+.pro_icon_twt{
+    width: 100px;
+	float: left;
+    margin-right: 30px;	
+    margin-bottom: 30px;
+    }
+
+.pro_icon_Nov{
+    width: 100px;
+	float: left;
+    margin-right: 30px;	
+    margin-bottom: 30px;
+    }
+
+.pro_icon_Git{
+    width: 100px;
+	float: left;
+    margin-right: 30px;	
+    margin-bottom: 30px;
+    }

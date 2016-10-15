@@ -1,6 +1,6 @@
-@charset "UTF-8";
+Ôªø@charset "UTF-8";
  
-/* CSSÉäÉZÉbÉg */
+/* CSS„É™„Çª„ÉÉ„Éà */
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,
 pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,
 strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,
@@ -17,27 +17,63 @@ del{text-decoration:line-through}abbr[title],dfn[title]
 {border-bottom:1px dotted;cursor:help}
 table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;
-margin:1em 0;padding:0}input,select{vertical-align:middle}body{
-background: #222222
-}
+margin:1em 0;padding:0}input,select{vertical-align:middle}
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Ropa+Sans');
 body{
-    background: #ebe6d3 url(images/stripe.png) repeat-x;
-    font: 16px/20px "ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro",'ÉÅÉCÉäÉI',Meiryo,Helvetica,Arial,Sans-Serif;
+    background: #333333 url(images/stripe.png) repeat-x;
     color: #666666;
 	}
-
-h1{
-font-family: 'Raleway', sans-serif;
-text-align: center; 
-font-size: 57px;
-color:#BBD0F0
+#wrapper{
+width: 960px;
+margin: 0 auto;
+}
+#title1{
+	position: relative;
+	top: 185px;
 }
 
-h2{
-font-family: 'Noto Sans', sans-serif;
-text-align: center;
+#title1 h1{
+	font-family: 'Ropa Sans', sans-serif;
+	text-align: center; 
+	font-size: 80px;
+	color:#BBD0F0
 }
 
-h3{font-family: 'Noto Sans', sans-serif;
+#title2{
+	position: relative;
+	top: 200px;
 }
+
+#title2 h2{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	color:#DDFFFF;
+	font-size: 30px;
+}
+
+#title2 h3{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center; 
+	font-size:15px;
+}
+
+#navi{
+	position: relative;
+	top: 250px;
+}
+
+#navi h2{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	color:#F60;
+	font-size: 30px;
+}
+
+a{
+	color: transperent;
+	}
+
+a:hover{
+	color:transperent;
+	}

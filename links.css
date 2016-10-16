@@ -24,10 +24,31 @@ body{
     background: #333333 url(images/stripe.png) repeat-x;
     color: #666666;
 	}
+
+.prot1 {
+color:#ffcc99;
+font-size: 20px;}
+
+.prot2 {
+color:#ffe;
+font-size: 20px;}
+
 #wrapper{
-width: 80%;
+width: 85%;
 margin: 0 auto;
 }
+
+#return{
+posiotion: static;
+top:150px;
+}
+#return h2{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center; 
+	color:#4689FF;
+	font-size:18px;
+}
+
 #title1{
 	position: static;
 	top: 185px;
@@ -55,26 +76,40 @@ margin: 0 auto;
 #title2 h3{
 	font-family: 'Noto Sans', sans-serif;
 	text-align: center; 
-	font-size:15px;
+	color:#4689FF;
+	font-size:18px;
 }
 
-#navi{
+#mybanner{
 	position: static;
 	top: 250px;
 	wide:50px;
 }
 
-#navi h2{
+#mybanner h3{
 	font-family: 'Noto Sans', sans-serif;
 	text-align: center;
-	color:#F60;
-	font-size: 30px;
+	color:#BBBBBB;
+	font-size: 15px;
+}
+
+#links{
+	position: static;
+	top: 450px;
+	wide:80%;
+}
+
+#links h3{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	color:#BBBBBB;
+	font-size: 15px;
 }
 
 a{
 	color:#F60;
-	text-decoration:none;
 padding-bottom:1px;
+text-decoration:none;
 	}
 
 a:hover{
@@ -85,3 +120,5 @@ a:hover{
 		font-family: 'Noto Sans', sans-serif;
 	font-size: 12px;
 }
+
+

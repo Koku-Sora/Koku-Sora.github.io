@@ -1,6 +1,6 @@
-ï»¿@charset "UTF-8";
+@charset "UTF-8";
  
-/* CSSãƒªã‚»ãƒƒãƒˆ */
+/* CSSƒŠƒZƒbƒg */
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,
 pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,
 strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,
@@ -19,69 +19,26 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;
 margin:1em 0;padding:0}input,select{vertical-align:middle}
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Ropa+Sans');
-body{
-    background: #333333 ;
-    color: #666666;
-	}
-#wrapper{
-width: 80%;
-margin: 0 auto;
-}
-#title1{
-	position: static;
-	top: 185px;
-}
-
-#title1 h1{
-	font-family: 'Ropa Sans', sans-serif;
-	text-align: center; 
-	font-size: 80px;
-	color:#BBD0F0
-}
-
-#title2{
-	position: static;
-	top: 200px;
-}
-
-#title2 h2{
-	font-family: 'Noto Sans', sans-serif;
-	text-align: center;
-	color:#DDFFFF;
-	font-size: 30px;
-}
-
-#title2 h3{
-	font-family: 'Noto Sans', sans-serif;
-	text-align: center; 
-	font-size:15px;
-}
-
-#navi{
-	position: static;
-	top: 250px;
-	wide:50px;
-}
-
-#navi h2{
-	font-family: 'Noto Sans', sans-serif;
-	text-align: center;
-	color:#F60;
-	font-size: 30px;
-}
+a:visited { color: #b0c4de; 
+text-decoration:none;
+padding-bottom:1px;}
+a:hover { color: #e0ffff;
+	text-decoration:none;
+padding-bottom:1px;}
+a:active { color: #e0ffff;
+	text-decoration:none;
+padding-bottom:1px;}
 
 a{
-	color:#F60;
 	text-decoration:none;
 padding-bottom:1px;
+color: #f0f8ff
 	}
-
-a:hover{
-	color:#F60;
+	
+	@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Ropa+Sans');
+body{
+    background: #EEFFFF;
+    color: #808080;
 	}
-
-#fotter{
-		font-family: 'Noto Sans', sans-serif;
-	font-size: 12px;
-}
+	
+	

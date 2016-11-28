@@ -21,7 +21,7 @@ margin:1em 0;padding:0}input,select{vertical-align:middle}
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Ropa+Sans');
 body{
-    background: #333333 url(images/stripe.png) repeat-x;
+    background: #333333;
     color: #666666;
 	}
 #wrapper{
@@ -84,4 +84,18 @@ a:hover{
 #fotter{
 		font-family: 'Noto Sans', sans-serif;
 	font-size: 12px;
+}
+
+/*-----------------------------------------
+snow
+-----------------------------------------*/
+.snow {
+	position: absolute;
+	background: #FFF;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.8);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.8);
 }

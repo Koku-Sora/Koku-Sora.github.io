@@ -13,12 +13,23 @@
 	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
 	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+	<script type="text/javascript" src="http://lib.tree-web.net/js/jquery/jquery-1.4.min.js"></script>
+<script type="text/javascript" src="http://lib.tree-web.net/js/jquery/lib/snowfall.jquery_tw.custom.js"></script>
 
 </head>
 
 <body>
-<script type="text/javascript" src="http://bit.ly/h1dwWD"></script>
+<script type="text/javascript">
+$(document).snowfall({
+   flakeCount :100, // 数
+   flakeIndex : 99999, // スタイルシートのz-indexの値
+   maxSpeed : 5, // 最大速度
+   minSpeed : 1, // 最小速度
+   maxSize  : 20, // 最大サイズ
+   minSize  : 1, // 最小サイズ
+   image : 'http://lib.tree-web.net/image/sakura_hanabira3.png'
+});
+</script>
 <div id="wrapper">
 	<div id="return">
 		<h2><a href="index.html"><i class="material-icons">vertical_align_top</i><br>return to top</a></h2></div>

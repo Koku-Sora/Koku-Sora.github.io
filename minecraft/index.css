@@ -19,13 +19,13 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;
 margin:1em 0;padding:0}input,select{vertical-align:middle}
 
-a:visited { color: #b0c4de; 
+a:visited { color: #FFF; 
 text-decoration:none;
 padding-bottom:1px;}
-a:hover { color: #e0ffff;
+a:hover { color: #FF4000;
 	text-decoration:none;
 padding-bottom:1px;}
-a:active { color: #e0ffff;
+a:active { color: #FF4000;
 	text-decoration:none;
 padding-bottom:1px;}
 
@@ -35,10 +35,87 @@ padding-bottom:1px;
 color: #f0f8ff
 	}
 	
-	@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Ropa+Sans');
+	@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Work+Sans:100');
+	
 body{
-    background: #EEFFFF;
-    color: #808080;
+    background: #FFF;
+    color: #000;
 	}
 	
+.ropa h1{
+	font-family: 'Ropa Sans', sans-serif;
+	text-align: center; 
+	font-size: 25px;
+	color:#BBD0F0
+}
 	
+.noto h1{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	font-size: 60px;
+	
+}
+
+.noto h2{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	font-size: 45px;
+}
+
+#intro h1{
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	font-size: 60px;
+	
+}
+	
+#intro h2{
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	font-size: 25px;
+}
+
+.wrapper{
+width: 80%;
+margin: 0 auto;
+ padding-top:50px;    
+}
+
+.slides{
+width: 100%;
+margin: 0 auto;
+ padding-top:10px;
+}
+
+.mi-disc{
+width: 80%;
+margin: 0 auto;
+ padding-top:50px;  
+  padding-bottom:50px;  
+}
+
+.mi-disc h1{
+	font-family: 'Work Sans', sans-serif;
+	text-align: left;
+	font-size: 25px;
+	padding-bottom:5px;
+}
+
+.mi-disc h2{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: left;
+	font-size: 18px;
+}
+
+.mi-disc h3{
+	font-family: 'Work Sans', sans-serif;
+	text-align: left;
+	font-size: 20px;
+	padding-top: 50px;
+}
+.mi-disc h4{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: left;
+	font-size: 16px;
+	padding-top: 5px;
+}

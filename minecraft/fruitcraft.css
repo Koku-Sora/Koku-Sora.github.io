@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
  
 
 a:visited { color: #FFF; 
@@ -22,7 +22,7 @@ color: #f0f8ff
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 	
 body{
-    background: #F5ECCE;
+    background: #FFF;
     color: #000;
 	}
 	
@@ -119,6 +119,7 @@ margin: 0 auto;
     background-color: #dcdcdc;
     margin: 8px 0;
 }
+
 
 mdl-navigation span.mdl-layout--large-screen-only.mdl-navigation__link.link__disabled{
 color:#151515

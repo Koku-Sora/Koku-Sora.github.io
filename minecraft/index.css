@@ -18,6 +18,8 @@ color: #f0f8ff
 	}
 	
 	@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Work+Sans:100');
+		
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 	
 body{
     background: #F5ECCE;
@@ -32,14 +34,14 @@ body{
 }
 	
 .noto h1{
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Noto Sans Japanese', sans-serif;
 	text-align: center;
 	font-size: 60px;
 	
 }
 
 .noto h2{
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Noto Sans Japanese', sans-serif;
 	text-align: center;
 	font-size: 45px;
 }
@@ -84,7 +86,7 @@ margin: 0 auto;
 }
 
 .mi-disc h2{
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Noto Sans Japanese', sans-serif;
 	text-align: left;
 	font-size: 18px;
 }
@@ -96,18 +98,19 @@ margin: 0 auto;
 	padding-top: 50px;
 }
 .mi-disc h4{
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Noto Sans Japanese', sans-serif;
 	text-align: left;
 	font-size: 16px;
 	padding-top: 5px;
+	font-weight : 200;
 }
 
 #fotter{
-		font-family: 'Noto Sans', sans-serif;
+		font-family: 'Noto Sans Japanese', sans-serif;
 	font-size: 12px;
 }
 
 #fotter{
-		font-family: 'Noto Sans', sans-serif;
+		font-family: 'Noto Sans Japanese', sans-serif;
 	font-size: 12px;
 }
